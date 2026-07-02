@@ -1,0 +1,253 @@
+/* 기본 폰트 및 리셋 스타일 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-color: #f7fbfd; /* 투명하고 맑은 소프트 스카이 화이트 */
+    color: #3a4b5c;
+    line-height: 1.6;
+}
+
+/* 상단 감성 비주얼 배너: 밝고 청량한 파스텔 그라데이션 */
+.header-banner {
+    background: linear-gradient(135deg, #74b9ff 0%, #81ecec 50%, #55efc4 100%); /* 밝은 하늘색, 민트, 밝은 초록의 상쾌한 조화 */
+    color: #ffffff;
+    text-align: center;
+    padding: 45px 20px;
+    box-shadow: 0 4px 20px rgba(116, 185, 255, 0.2);
+}
+
+.header-banner h1 {
+    font-size: 26pt;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-banner p {
+    font-size: 11.5pt;
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.flight-info {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 22px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    font-size: 9.5pt;
+    font-weight: 500;
+    color: #1e3d59; /* 글자는 가독성을 위해 선명하게 */
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* 레이아웃 컨테이너 */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* 데이별 섹션: 부드러운 라운딩과 화사한 그림자 */
+.day-section {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(180, 190, 200, 0.15);
+    margin-bottom: 35px;
+    overflow: hidden;
+    border: 1px solid #eef5f8;
+}
+
+/* 데이 타이틀 디자인: 밝고 화사하게 매칭된 파스텔 톤 */
+.day-title {
+    padding: 16px 20px;
+    font-weight: 700;
+    font-size: 13pt;
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.day1 { background-color: #ff7675; } /* 1일차 삿포로/맥주축제: 활기찬 소프트 코랄 핑크 */
+.day2 { background-color: #a29bfe; } /* 2일차 후라노/비에이: 화사한 라벤더 보라 */
+.day3 { background-color: #74b9ff; } /* 3일차 샤코탄 바다: 맑고 청량한 스카이 블루 */
+.day4 { background-color: #55efc4; color: #1e3d59; } /* 4일차 마지막날: 눈이 시원한 브라이트 그린 */
+
+/* 타임라인 항목 디자인 */
+.timeline-item {
+    display: block;
+    border-bottom: 1px solid #f4f9f6;
+    padding: 22px;
+    position: relative;
+}
+
+/* 식사(Meal) 카드 스타일 구분으로 직관성 향상 */
+.timeline-item.meal {
+    background-color: #fffdf6; /* 연한 노란빛으로 식사 시간 강조 */
+}
+
+.timeline-item:last-child {
+    border-bottom: none;
+}
+
+/* 시간 라벨: 연한 파스텔 배경으로 변경 */
+.time {
+    display: inline-block;
+    font-size: 11pt;
+    font-weight: 700;
+    color: #0984e3; /* 산뜻한 블루 */
+    background-color: #e8f4fd;
+    padding: 4px 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* 식사 전용 시간 라벨 컬러 체인지 */
+.timeline-item.meal .time {
+    color: #e67e22;
+    background-color: #fdf2e9;
+}
+
+/* 장소명 정보 */
+.place-name {
+    font-size: 12.5pt;
+    font-weight: 700;
+    color: #2d3436;
+    margin-bottom: 8px;
+}
+
+.content p {
+    font-size: 10pt;
+    color: #636e72;
+    margin-bottom: 14px;
+}
+
+/* 라벨 팝업 유도 버튼 디자인 */
+.info-btn {
+    background-color: #ffffff;
+    color: #2d3436;
+    border: 1px solid #dfe6e9;
+    padding: 7px 16px;
+    font-size: 9pt;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+.info-btn:hover, .info-btn:active {
+    background-color: #f5f6fa;
+    border-color: #74b9ff;
+    color: #0984e3;
+}
+
+/* ==================== 모달 팝업 레이어 CSS ==================== */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45, 52, 54, 0.4);
+    z-index: 999;
+    backdrop-filter: blur(2px);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 480px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    z-index: 1000;
+    overflow: hidden;
+    animation: fadeIn 0.25s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, -46%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+.modal-header {
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    color: #ffffff;
+    padding: 18px 22px;
+    font-size: 12.5pt;
+    font-weight: 700;
+}
+
+.modal-body {
+    padding: 22px;
+    font-size: 10pt;
+    color: #2d3436;
+}
+
+.modal-body p {
+    margin-bottom: 14px;
+}
+
+.modal-body p strong {
+    color: #0984e3;
+}
+
+/* 꿀팁 박스 */
+.modal-body p:last-child {
+    margin-bottom: 0;
+    background-color: #f5fcf9;
+    padding: 14px;
+    border-radius: 10px;
+    border-left: 4px solid #55efc4;
+    color: #2d3436;
+}
+
+.modal-close {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: none;
+    border-top: 1px solid #f1f2f6;
+    font-size: 10.5pt;
+    font-weight: 600;
+    color: #636e72;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.modal-close:hover {
+    background-color: #f1f2f6;
+    color: #2d3436;
+}
+
+/* ==================== 반응형 고도화 (Mobile 및 데스크톱 스케일링) ==================== */
+@media (min-width: 600px) {
+    .timeline-item {
+        padding-left: 130px;
+    }
+    .time {
+        position: absolute;
+        left: 20px;
+        top: 22px;
+        width: 85px;
+        text-align: center;
+    }
+}
