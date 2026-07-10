@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hokkaido Summer Tour 3박 4일 일정 가이드 (하네다 경유)</title>
+    <title>Hokkaido Summer Tour 3박 4일 일정 가이드 (오타루 불꽃축제 & 시내반납 스케줄)</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,146 +11,85 @@
     <!-- 헤더 배너: 여름 홋카이도 테마 -->
     <div class="header-banner">
         <h1>HOKKAIDO SUMMER TRIP</h1>
-        <p>7월의 라벤더와 축제, 그리고 푸른 바다를 달리는 렌터카 여정 (도쿄 하네다 경유 스케줄)</p>
+        <p>7월의 라벤더, 삿포로 맥주축제 3회, 그리고 오타루 시오마츠리 불꽃놀이를 즐기는 3박 4일 여정</p>
         <div class="flight-info">
-            ✈️ 경유출국: 07/23 (목) 20:30 (ICN) → 22:50 (HND) <br>
-            ✈️ 삿포로행: 07/24 (금) 10:15 (HND) → 11:45 (CTS) <br>
-            ✈️ 최종귀국: 07/27 (월) 20:50 (CTS) → 23:55 (ICN)
+            🏢 숙소: Odysis Sapporo Odori Koen Hotel (3박 연박)<br>
+            🚗 렌터카: 신치토세 공항 픽업 (7/24 14:40) → 삿포로 시내 지점 반납 (7/27 14:00)<br>
+            ✈️ 출국: 07/24 (금) 10:35 (ICN) → 13:25 (CTS) | 귀국: 07/27 (월) 20:50 (CTS) → 23:55 (ICN)
         </div>
     </div>
 
     <!-- 메인 컨테이너 -->
     <div class="container">
         
-        <!-- 23일 전야제 일정 -->
+        <!-- 1일차 -->
         <div class="day-section">
-            <div class="day-title day0">PRE-DAY &bull; 7월 23일 (목) [퇴근 후 도쿄 하네다로 출발]</div>
+            <div class="day-title day1">DAY 1 &bull; 7월 24일 (금) [인천 출국 & 삿포로 남부 ➔ 맥주축제 1회차]</div>
             
             <div class="timeline-item">
-                <div class="time">19:00</div>
+                <div class="time">07:30</div>
                 <div class="content">
-                    <div class="place-name">인천국제공항 도착 및 탑승 수속</div>
-                    <p>퇴근 후 인천공항으로 신속히 이동하여 20:30 하네다행 대한항공 수속을 밟습니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item meal">
-                <div class="time">19:30</div>
-                <div class="content">
-                    <div class="place-name">🍳 저녁 식사 (인천공항 내 식당가)</div>
-                    <p>비행기 탑승 전 공항에서 간단하고 든든하게 저녁 식사를 해결합니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="time">20:30</div>
-                <div class="content">
-                    <div class="place-name">인천공항 이륙 (도쿄 하네다행)</div>
-                    <p>대한항공을 타고 도쿄를 향해 출발합니다. (비행시간 약 2시간 20분 소요)</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="time">22:50</div>
-                <div class="content">
-                    <div class="place-name">🛬 도쿄 하네다 공항 도착</div>
-                    <p>하네다 공항에 입항하여 입국 심사 및 수하물 수령을 진행합니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="time">00:00</div>
-                <div class="content">
-                    <div class="place-name">숙소 체크인 (호텔 빌라 폰테누 그랜드 하네다 에어포트)</div>
-                    <p>자정에 모든 수속을 마치고 공항과 직결된 숙소로 이동하여 빠르게 체크인 후 휴식을 취합니다.</p>
-                    <button class="info-btn" onclick="openModal('modal-hnd-hotel')">💡 하네다 숙소 팁</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- 1일차 (24일) -->
-        <div class="day-section">
-            <div class="day-title day1">DAY 1 &bull; 7월 24일 (금) [하네다 출발 & 삿포로 입국/축제]</div>
-            
-            <div class="timeline-item">
-                <div class="time">07:00</div>
-                <div class="content">
-                    <div class="place-name">기상 및 체크아웃 준비</div>
-                    <p>기상 후 주말 홋카이도 여정을 위해 짐을 꼼꼼히 정리하여 체크아웃합니다.</p>
+                    <div class="place-name">인천국제공항 제2여객터미널 도착</div>
+                    <p>대한항공 탑승 수속 및 수하물 위탁 후 출국장에 입장합니다.</p>
+                    <button class="info-btn" onclick="openModal('modal-icn')">💡 인천공항 이용 팁</button>
                 </div>
             </div>
 
             <div class="timeline-item meal">
                 <div class="time">08:30</div>
                 <div class="content">
-                    <div class="place-name">🍳 아침 식사 (하네다 공항 내 브런치)</div>
-                    <p>공항 내 오픈된 식당 및 카페에서 간단하게 브런치를 먹으며 홋카이도행 비행기를 기다립니다.</p>
+                    <div class="place-name">🍳 아식 식사 (인천공항 내 식당가)</div>
+                    <p>탑승 전 든든하게 한식이나 브런치로 아침 식사를 해결합니다.</p>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <div class="time">09:15</div>
+                <div class="time">10:35</div>
                 <div class="content">
-                    <div class="place-name">하네다 공항 국내선 탑승구 이동</div>
-                    <p>국내선 청사 탑승구로 이동하여 삿포로(신치토세)행 비행기 탑승을 준비합니다.</p>
+                    <div class="place-name">인천공항 이륙 (KE765)</div>
+                    <p>삿포로 신치토세 공항으로 출발합니다. (비행시간 약 2시간 50분 소요)</p>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <div class="time">10:15</div>
+                <div class="time">13:25</div>
                 <div class="content">
-                    <div class="place-name">하네다 공항 이륙 (삿포로행)</div>
-                    <p>홋카이도로 향하는 국내선 비행기에 탑승합니다. (비행시간 약 1시간 30분 소요)</p>
+                    <div class="place-name">🛬 신치토세 공항 도착 및 입국 수속</div>
+                    <p>도착 후 입국 심사를 마치고 위탁 수하물을 수령한 뒤 렌터카 카운터로 이동합니다.</p>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <div class="time">11:45</div>
+                <div class="time">14:40</div>
                 <div class="content">
-                    <div class="place-name">🛬 신치토세 공항 도착</div>
-                    <p>삿포로에 도착하여 위탁 수하물을 찾고 렌터카 인수 카운터로 빠르게 이동합니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="time">12:30</div>
-                <div class="content">
-                    <div class="place-name">신치토세 공항 출발 완료</div>
-                    <p>차량 인수를 완료하고 드디어 본격적인 홋카이도 렌터카 여정을 시작합니다.</p>
+                    <div class="place-name">신치토세 공항 출발 (렌터카 인수 완료)</div>
+                    <p>셔틀버스로 이동해 차량 계약 및 상태 체크를 끝내고 삿포로 남부 방면으로 출발합니다.</p>
                     <button class="info-btn" onclick="openModal('modal-cts')">💡 이용 팁 & 정보</button>
                 </div>
             </div>
 
-            <div class="timeline-item meal">
-                <div class="time">13:15</div>
-                <div class="content">
-                    <div class="place-name">🍱 점심 식사 (시내 이동 중 맛집)</div>
-                    <p>삿포로 남부로 이동하는 동선 상에 위치한 로컬 식당이나 라멘집에서 홋카이도 첫 식사를 즐깁니다.</p>
-                </div>
-            </div>
-
             <div class="timeline-item">
-                <div class="time">14:45</div>
+                <div class="time">15:40</div>
                 <div class="content">
                     <div class="place-name">마코마나이 타키노 영원 (모아이상 & 두대불전)</div>
-                    <p>안도 타다오 설계 건축물. 7월 말 만개한 보랏빛 라벤더와 거대 모아이상의 절묘한 풍경 감상.</p>
+                    <p>안도 타다오 설계의 신비로운 불전. 7월 말 만개한 라벤더 꽃밭과 모아이 석상을 감상합니다.</p>
                     <button class="info-btn" onclick="openModal('modal-takino')">💡 이용 팁 & 정보</button>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <div class="time">17:00</div>
+                <div class="time">17:40</div>
                 <div class="content">
-                    <div class="place-name">삿포로 시내 숙소 체크인 & 주차</div>
-                    <p>호텔에 여유롭게 체크인하고 가벼운 짐 정리와 정비 시간을 가집니다.</p>
+                    <div class="place-name">오디시스 삿포로 호텔 체크인 & 주차</div>
+                    <p>오도리 공원 앞 숙소에 체크인하고 차량을 주차장에 입고한 뒤 도보로 이동할 준비를 합니다.</p>
                 </div>
             </div>
 
             <div class="timeline-item meal">
                 <div class="time">18:30</div>
                 <div class="content">
-                    <div class="place-name">🍺 저녁 식사 & 삿포로 오도리 맥주축제</div>
-                    <p>여름 홋카이도의 하이라이트인 맥주축제 현장에서 시원한 생맥주와 야시장 먹거리로 저녁을 즐깁니다.</p>
+                    <div class="place-name">🍺 저녁 식사 & 삿포로 오도리 맥주축제 (1회차)</div>
+                    <p>숙소 바로 앞 오도리 공원에서 열리는 맥주축제장에 방문하여 신선한 생맥주와 다양한 안주로 저녁 식사를 즐깁니다.</p>
                     <button class="info-btn" onclick="openModal('modal-beer')">💡 축제 정보 & 팁</button>
                 </div>
             </div>
@@ -158,13 +97,13 @@
 
         <!-- 2일차 -->
         <div class="day-section">
-            <div class="day-title day2">DAY 2 &bull; 7월 25일 (토) [후라노/비에이 대자연 라벤더 투어]</div>
+            <div class="day-title day2">DAY 2 &bull; 7월 25일 (토) [후라노/비에이 라벤더 ➔ 맥주축제 2회차]</div>
             
             <div class="timeline-item meal">
                 <div class="time">07:00</div>
                 <div class="content">
-                    <div class="place-name">🍳 아침 식사 (호텔 조식 또는 편의점)</div>
-                    <p>장거리 드라이브와 꽉 찬 하루를 위해 든든하게 아침을 챙겨 먹고 출발 준비를 합니다.</p>
+                    <div class="place-name">🍳 아침 식사 (호텔 조식 또는 간단한 편의점)</div>
+                    <p>후라노 주말 정체를 피하기 위해 일찍 아침 식사를 마치고 나올 채비를 합니다.</p>
                 </div>
             </div>
 
@@ -172,7 +111,7 @@
                 <div class="time">07:30</div>
                 <div class="content">
                     <div class="place-name">삿포로에서 후라노로 출발</div>
-                    <p>주말 인파 정체를 피해 최우선으로 팜 도미타로 직행합니다 (약 2시간 소요).</p>
+                    <p>고속도로를 이용해 팜 도미타를 향해 약 2시간 동안 드라이브합니다.</p>
                 </div>
             </div>
 
@@ -180,7 +119,7 @@
                 <div class="time">09:30</div>
                 <div class="content">
                     <div class="place-name">팜 도미타 (라벤더 축제)</div>
-                    <p>지평선을 가득 메운 보랏빛 라벤더 카펫 감상 및 시그니처 라벤더 아이스크림 시식.</p>
+                    <p>최성기를 맞이한 보랏빛 라벤더 들판을 여유롭게 산책하고 시그니처 아이스크림을 맛봅니다.</p>
                     <button class="info-btn" onclick="openModal('modal-tomita')">💡 이용 팁 & 정보</button>
                 </div>
             </div>
@@ -189,7 +128,7 @@
                 <div class="time">11:30</div>
                 <div class="content">
                     <div class="place-name">🍱 점심 식사 (비에이 방목 낙농장)</div>
-                    <p>푸른 언덕 목가적인 풍경 속에서 프리미엄 우유, 수제 치즈 토스트 및 디저트로 점심 식사.</p>
+                    <p>그림 같은 낙농 목장에서 방목된 소들을 보며 프리미엄 우유, 수제 치즈 샌드위치 등으로 점심을 즐깁니다.</p>
                     <button class="info-btn" onclick="openModal('modal-farm')">💡 이용 팁 & 정보</button>
                 </div>
             </div>
@@ -198,7 +137,7 @@
                 <div class="time">13:45</div>
                 <div class="content">
                     <div class="place-name">패치워크로드 & 사계채의 언덕</div>
-                    <p>CF에 등장한 유명 나무들과 사계채의 언덕(시키사이노오카)의 형형색색 융단 꽃밭 관람.</p>
+                    <p>패치워크 언덕 드라이브 후, 무지개 빛깔 플라워 카펫이 펼쳐진 사계채의 언덕을 관람합니다.</p>
                     <button class="info-btn" onclick="openModal('modal-shikisai')">💡 이용 팁 & 정보</button>
                 </div>
             </div>
@@ -207,7 +146,7 @@
                 <div class="time">16:00</div>
                 <div class="content">
                     <div class="place-name">청의 호수 & 흰수염 폭포</div>
-                    <p>신비로운 푸른 빛의 아오이이케 자작나무 숲을 걷고, 코발트블루 강의 흰수염 폭포까지 연계 관람.</p>
+                    <p>자작나무 숲속 신비로운 에메랄드 물빛의 청의 호수와 시원하게 쏟아지는 흰수염 폭포를 연계해 관람합니다.</p>
                     <button class="info-btn" onclick="openModal('modal-bluepond')">💡 이용 팁 & 정보</button>
                 </div>
             </div>
@@ -215,152 +154,193 @@
             <div class="timeline-item">
                 <div class="time">17:15</div>
                 <div class="content">
-                    <div class="place-name">삿포로 복귀 드라이브 시작</div>
-                    <p>일정을 여유롭게 마치고 삿포로 시내를 향해 안전하게 복귀 드라이브를 시작합니다 (약 2시간 소요).</p>
+                    <div class="place-name">삿포로 숙소로 복귀 드라이브</div>
+                    <p>비에이 일정을 컴팩트하게 끝내고 삿포로 시내 숙소로 이동합니다 (약 2시간 소요).</p>
                 </div>
             </div>
 
             <div class="timeline-item meal">
                 <div class="time">19:30</div>
                 <div class="content">
-                    <div class="place-name">🥩 저녁 식사 (삿포로 시내 미식)</div>
-                    <p>기존보다 여유로워진 저녁 시간. 유명 징기스칸(양고기 구이) 매장이나 수프카레집에서 느긋하게 저녁을 즐깁니다.</p>
+                    <div class="place-name">🥩 저녁 식사 & 삿포로 오도리 맥주축제 (2회차)</div>
+                    <p>호텔 주차 후 오도리 공원으로 나가 어제와는 다른 브랜드의 맥주 부스에서 축제 분위기와 저녁 식사를 만끽합니다.</p>
                 </div>
             </div>
         </div>
 
         <!-- 3일차 -->
         <div class="day-section">
-            <div class="day-title day3">DAY 3 &bull; 7월 26일 (일) [샤코탄 블루 & 감성 오타루 야경]</div>
+            <div class="day-title day3">DAY 3 &bull; 7월 26일 (일) [샤코탄 전망대 투어 & 오타루 시오마츠리 불꽃놀이]</div>
             
             <div class="timeline-item meal">
-                <div class="time">07:30</div>
-                <div class="content">
-                    <div class="place-name">🍳 아침 식사 (간단한 베이커리 또는 브런치)</div>
-                    <p>해안 드라이브 출발 전 숙소 근처에서 가볍게 아침 식사를 즐깁니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
                 <div class="time">08:00</div>
                 <div class="content">
-                    <div class="place-name">샤코탄 반도로 출발</div>
-                    <p>오타루 해안선을 따라 환상적인 바다 드라이브를 하며 카무이 곶으로 이동.</p>
+                    <div class="place-name">🍳 아침 식사 (호텔 근처 브런치)</div>
+                    <p>일요일 샤코탄 해안 드라이브를 위해 가볍게 아침을 챙겨 먹고 나섭니다.</p>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <div class="time">10:15</div>
+                <div class="time">08:30</div>
                 <div class="content">
-                    <div class="place-name">카무이 곶 (미사키) 전망대</div>
-                    <p>양옆으로 펼쳐지는 압도적인 에메랄드빛 '샤코탄 블루' 바다 능선을 따라 등대까지 트레킹.</p>
-                    <button class="info-btn" onclick="openModal('modal-kamui')">💡 이용 팁 & 정보</button>
+                    <div class="place-name">샤코탄 반도로 드라이브 출발</div>
+                    <p>오타루 해안 지선 고속도로를 경유하여 샤코탄 투어의 시작점인 시마누이 해안으로 달립니다.</p>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <div class="time">12:00</div>
+                <div class="time">10:45</div>
                 <div class="content">
-                    <div class="place-name">시마누이 해안</div>
-                    <p>독특한 바위 동굴 터널을 지나면 숨겨진 맑은 자갈 해변이 나타나는 절경 포인트.</p>
+                    <div class="place-name">시마누이 해안 전망대</div>
+                    <p>기암괴석 뒤로 펼쳐지는 투명하고 맑은 샤코탄 블루의 투명한 바다를 조망합니다.</p>
                     <button class="info-btn" onclick="openModal('modal-shimanui')">💡 이용 팁 & 정보</button>
                 </div>
             </div>
 
+            <div class="timeline-item">
+                <div class="time">11:45</div>
+                <div class="content">
+                    <div class="place-name">샤코탄 곶 전망대</div>
+                    <p>시마누이 해안 옆 산책 코스 연계. 7월 여름철에만 볼 수 있는 눈부신 대자연 파노라마 뷰 관람.</p>
+                    <button class="info-btn" onclick="openModal('modal-shakotan-cape')">💡 이용 팁 & 정보</button>
+                </div>
+            </div>
+
             <div class="timeline-item meal">
+                <div class="time">12:30</div>
+                <div class="content">
+                    <div class="place-name">🍱 점심 식사 (샤코탄 로컬 제철 성게알)</div>
+                    <p>7~8월 한정으로만 제대로 맛볼 수 있는 샤코탄 특산물인 신선한 '우니동(성게알 덮밥)'으로 최고의 점심을 먹습니다.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
                 <div class="time">14:00</div>
                 <div class="content">
-                    <div class="place-name">🍣 점심 식사 & 오타루 미니 관광</div>
-                    <p>오타루 스시거리에서 신선한 스시로 늦은 점심을 먹고, 운하와 사카이마치 거리를 가볍게 산책합니다.</p>
-                    <button class="info-btn" onclick="openModal('modal-otaru')">💡 이용 팁 & 정보</button>
+                    <div class="place-name">샤코탄에서 오타루 축제 현장으로 이동</div>
+                    <p>오타루 시오마츠리 축제가 열리는 오타루항 제3부두 인근 지정 주차장으로 이동합니다.</p>
                 </div>
             </div>
 
             <div class="timeline-item">
-                <div class="time">16:30</div>
+                <div class="time">15:30</div>
                 <div class="content">
-                    <div class="place-name">오타루에서 삿포로로 이동 및 정비</div>
-                    <p>삿포로 도심으로 복귀해 잠시 휴식을 취하거나 야경 관람을 위한 정비를 합니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="time">19:00</div>
-                <div class="content">
-                    <div class="place-name">모이와야마 전망대 야경</div>
-                    <p>일본 3대 야경으로 선정된 삿포로 시내의 환상적인 매직아워와 밤 풍경 감상.</p>
-                    <button class="info-btn" onclick="openModal('modal-moiwa')">💡 이용 팁 & 정보</button>
-                </div>
-            </div>
-
-            <div class="timeline-item meal">
-                <div class="time">20:30</div>
-                <div class="content">
-                    <div class="place-name">🦀 저녁 식사 (스스키노 이자카야 또는 게 요리)</div>
-                    <p>삿포로 시내 스스키노 번화가에서 신선한 해산물 안주나 명물 게 요리와 함께 마지막 밤의 만찬을 즐깁니다.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- 4일차 -->
-        <div class="day-section">
-            <div class="day-title day4">DAY 4 &bull; 7월 27일 (월) [삿포로 시내 미식 및 출국]</div>
-            
-            <div class="timeline-item meal">
-                <div class="time">08:30</div>
-                <div class="content">
-                    <div class="place-name">🍳 아침 식사 (삿포로 노포 카페 또는 샌드위치)</div>
-                    <p>체크아웃 전, 삿포로 로컬 감성의 카페에서 모닝커피와 토스트로 하루를 엽니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="time">09:30</div>
-                <div class="content">
-                    <div class="place-name">삿포로 시내 여유시간 (기념품 쇼핑 & 오도리 산책)</div>
-                    <p>오도리 공원 주변을 산책하고 메가돈키호테 타누키코지점에서 막바지 쇼핑을 즐깁니다.</p>
-                    <button class="info-btn" onclick="openModal('modal-sapporo')">💡 시내 팁 정보</button>
-                </div>
-            </div>
-
-            <div class="timeline-item meal">
-                <div class="time">11:30</div>
-                <div class="content">
-                    <div class="place-name">🍛 점심 식사 (삿포로 명물 스프카레 오픈런)</div>
-                    <p>오픈 시간에 맞춰 유명 스프카레 맛집을 방문하여 깊고 진한 홋카이도식 카레를 맛봅니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="time">13:30</div>
-                <div class="content">
-                    <div class="place-name">신치토세 공항으로 이동 및 렌터카 반납</div>
-                    <p>월요일 오후 교통 정체를 감안하여 여유 있게 출발, 주유 후 차량을 안전하게 반납합니다.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="time">16:00</div>
-                <div class="content">
-                    <div class="place-name">신치토세 공항 완전히 즐기기</div>
-                    <p>로이즈 초콜릿 월드, 도라에몽 스카이파크 투어 및 국내선 3층 대규모 상점가 쇼핑.</p>
-                    <button class="info-btn" onclick="openModal('modal-airport')">💡 공항 팁 & 정보</button>
+                    <div class="place-name">오타루 도착: 코인 주차 후 간단한 시내 관광</div>
+                    <p>축제 전용 코인 주차장에 안전하게 차를 주차해 두고, 오타루 운하 및 사카이마치 디저트 거리를 가볍게 돌아봅니다.</p>
+                    <button class="info-btn" onclick="openModal('modal-otaru-festival-park')">🚗 오타루 축제 주차 팁</button>
                 </div>
             </div>
 
             <div class="timeline-item meal">
                 <div class="time">18:00</div>
                 <div class="content">
-                    <div class="place-name">🍜 저녁 식사 (공항 라멘 스트리트)</div>
-                    <p>출국 수속 전 공항 내 유명 라멘 가공들이 모인 '라멘 도조'에서 홋카이도 미소라멘으로 여행의 마지막 식사.</p>
+                    <div class="place-name">🍣 저녁 식사 (오타루 스시 or 축제 야타이 노점음식)</div>
+                    <p>오타루 명물 스시 전문점에서 식사를 하거나 시오마츠리 광장에 가득 찬 야시장에서 길거리 음식을 즐깁니다.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time">20:00</div>
+                <div class="content">
+                    <div class="place-name">🎆 오타루 시오마츠리 불꽃놀이 대회 관람</div>
+                    <p>오타루항 밤하늘과 바다 위를 화려하게 수놓는 대망의 시오마츠리 피날레 불꽃쇼를 감상합니다.</p>
+                    <button class="info-btn" onclick="openModal('modal-otaru-fireworks')">💡 축제 관람 팁</button>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time">21:30</div>
+                <div class="content">
+                    <div class="place-name">차량 픽업 후 삿포로 숙소로 야간 드라이브</div>
+                    <p>출로 정체를 감안하여 천천히 빠져나와 삿포로 오도리 공원 숙소로 귀가합니다 (약 50분 소요).</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4일차 -->
+        <div class="day-section">
+            <div class="day-title day4">DAY 4 &bull; 7월 27일 (월) [렌터카 시내 반납 ➔ 맥주축제 3회차 완벽 완성]</div>
+            
+            <div class="timeline-item meal">
+                <div class="time">08:30</div>
+                <div class="content">
+                    <div class="place-name">🍳 아침 식사 (삿포로 브런치 카페)</div>
+                    <p>마지막 날 아침, 삿포로 시내의 분위기 좋은 베이커리나 카페에서 모닝 티타임을 가집니다.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time">09:35</div>
+                <div class="content">
+                    <div class="place-name">모이와야마 전망대 (오전 관람)</div>
+                    <p>야경 대신 푸른 여름날의 삿포로 도심 파노라마 전경을 보기 위해 아침 로프웨이를 타고 정상에 오릅니다.</p>
+                    <button class="info-btn" onclick="openModal('modal-moiwa')">💡 이용 팁 & 정보</button>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time">11:15</div>
+                <div class="content">
+                    <div class="place-name">삿포로 시내 쇼핑 및 미식 세팅</div>
+                    <p>타누키코지 아케이드나 메가돈키호테에서 지인들에게 줄 기념품과 면세 쇼핑을 즐깁니다.</p>
+                    <button class="info-btn" onclick="openModal('modal-sapporo')">💡 시내 팁 정보</button>
+                </div>
+            </div>
+
+            <div class="timeline-item meal">
+                <div class="time">12:00</div>
+                <div class="content">
+                    <div class="place-name">🍛 점심 식사 (삿포로 스프카레 미식)</div>
+                    <p>진하고 깊은 향을 품은 삿포로의 소울푸드인 스프카레로 든든한 마지막 점심 식사 완성.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time">13:30</div>
+                <div class="content">
+                    <div class="place-name">시내 주유소 들르기 및 렌터카 시내 반납</div>
+                    <p>삿포로 역이나 오도리 근처의 **렌터카 시내 지점**에 기름을 가득 채워 14:00까지 차량을 조기 반납합니다.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item meal">
+                <div class="time">14:30</div>
+                <div class="content">
+                    <div class="place-name">🍺 삿포로 오도리 맥주축제 (3회차 파이널)</div>
+                    <p>차가 없으므로 완벽한 자유 상태! 17:00까지 낮에 열리는 활기찬 맥주 축제를 마지막으로 흠뻑 즐깁니다.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time">17:00</div>
+                <div class="content">
+                    <div class="place-name">호텔 짐 픽업 후 JR 쾌속열차 타고 공항으로 이동</div>
+                    <p>오디시스 호텔에 맡겨둔 수하물을 찾아 삿포로역에서 JR 쾌속 에어포트를 타고 공항으로 직행합니다 (약 40분 소요).</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="time">18:00</div>
+                <div class="content">
+                    <div class="place-name">신치토세 공항 도착 및 출국 수속</div>
+                    <p>항공사 카운터에서 수하물을 위탁하고 공항 면세구역 및 로컬 과자 상점가를 마지막으로 털어봅니다.</p>
+                    <button class="info-btn" onclick="openModal('modal-airport')">💡 공항 팁 & 정보</button>
+                </div>
+            </div>
+
+            <div class="timeline-item meal">
+                <div class="time">18:45</div>
+                <div class="content">
+                    <div class="place-name">🍜 저녁 식사 (공항 라멘 도조 골목)</div>
+                    <p>비행기 탑승 전, 공항 내 홋카이도 라멘 골목에서 구수한 미소 라멘 한 그릇으로 여정을 깔끔하게 마칩니다.</p>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="time">20:50</div>
                 <div class="content">
-                    <div class="place-name">인천행 대한항공 탑승 및 출국</div>
-                    <p>추억을 안고 안전하게 귀국길 비행기에 오릅니다.</p>
+                    <div class="place-name">인천행 대한항공 비행기 탑승 (KE772)</div>
+                    <p>지정된 게이트에서 귀국편 비행기에 탑승하여 인천공항(23:55 도착 예정)으로 복귀합니다.</p>
                 </div>
             </div>
         </div>
@@ -370,23 +350,24 @@
     <!-- ==================== 모달 팝업 레이어 모음 ==================== -->
     <div id="modal-overlay" class="modal-overlay" onclick="closeModal()"></div>
 
-    <!-- 하네다 공항 숙소 모달 -->
-    <div id="modal-hnd-hotel" class="modal">
-        <div class="modal-header">호텔 빌라 폰테누 그랜드 하네다 에어포트 팁</div>
+    <!-- 인천공항 모달 -->
+    <div id="modal-icn" class="modal">
+        <div class="modal-header">인천국제공항 제2여객터미널 이용 팁</div>
         <div class="modal-body">
-            <p><strong>🕒 체크인:</strong> 24시간 대응 가능 (자정 도착 무관)</p>
-            <p><strong>💡 꿀팁:</strong> 하네다 공항 제3터미널과 '하네다 에어포트 가든' 보행 통로로 직접 직결되어 있어 자정에 입국 수속을 마친 후 밖으로 나가지 않고 바로 진입할 수 있어 편리합니다. 호텔 내부에 온천 시설(이즈미 가든)이 유료로 운영되니 비행 피로를 풀고 싶다면 참고하세요.</p>
+            <p><strong>🕒 추천 도착 시간:</strong> 최소 07:30 전후 (비행기 출발 3시간 전)</p>
+            <p><strong>📅 탑승 항공사:</strong> 대한항공 (T2 터미널)</p>
+            <p><strong>💡 꿀팁:</strong> 모바일 체크인과 셀프 백드롭을 이용해 수하물을 보내고 환전이나 데이터 로밍 상품 수령을 수속 전 빠르게 끝내는 것이 공항 푸드코트를 널널하게 이용할 수 있는 비결입니다.</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
 
-    <!-- 신치토세 공항 모달 -->
+    <!-- 공항 픽업 모달 -->
     <div id="modal-cts" class="modal">
-        <div class="modal-header">신치토세 공항 & 렌터카 인수</div>
+        <div class="modal-header">신치토세 공항 렌터카 인수 가이드</div>
         <div class="modal-body">
             <p><strong>🕒 영업시간:</strong> 각 렌터카 업체별 보통 08:00 ~ 20:00</p>
             <p><strong>📅 휴무일:</strong> 연중무휴</p>
-            <p><strong>💡 꿀팁:</strong> 하네다발 국내선은 국제선에 비해 입국 수속 및 짐 찾는 시간이 현저히 적게 소요됩니다. 12:30 렌터카 인수를 신속히 진행한 후 바로 아바시리/삿포로 남부 방면 고속도로에 진입하면 첫날 일정을 더욱 널널하게 소화할 수 있습니다.</p>
+            <p><strong>💡 꿀팁:</strong> 13:25 착륙 후 짐을 찾고 나오는 시간을 고려하면 14:15 전후로 게이트를 통과하게 됩니다. 곧장 렌터카 셔틀 정류장으로 가서 14:40 전후로 차량 인수를 완수하는 것을 목표로 무빙해야 남부 일정을 밀리지 않고 소화합니다.</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
@@ -397,18 +378,18 @@
         <div class="modal-body">
             <p><strong>🕒 영업시간:</strong> 09:00 ~ 16:00 (4월~10월 기준)</p>
             <p><strong>📅 휴무일:</strong> 연중무휴</p>
-            <p><strong>💡 꿀팁:</strong> 안도 타다오가 설계한 두대불전은 7월 말이면 불상 머리 주변 언덕 전체가 보랏빛 라벤더로 뒤덮입니다. 내부 입장 시 유지관리비 개념의 가벼운 보시(약 300엔)가 있습니다.<br><br><strong>🚗 주차 맵코드: 9 017 560*22</strong> (무료 주차장)</p>
+            <p><strong>💡 꿀팁:</strong> 입구 모아이 석상 뒤편 안도 타다오의 두대불전 참배길 언덕은 7월 말 라벤더가 만개해 절경을 이룹니다. 입장 시 약 300엔의 가벼운 자선 보시 요금이 있습니다.<br><br><strong>🚗 주차 맵코드: 9 017 560*22</strong> (무료 주차장)</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
 
     <!-- 맥주축제 모달 -->
     <div id="modal-beer" class="modal">
-        <div class="modal-header">삿포로 오도리 맥주가든 축제</div>
+        <div class="modal-header">삿포로 오도리 맥주가든 축제 필승법</div>
         <div class="modal-body">
             <p><strong>🕒 영업시간:</strong> 12:00 ~ 21:00 (라스트오더 20:45)</p>
-            <p><strong>📅 축제기간:</strong> 매년 7월 하순 ~ 8월 중순 진행</p>
-            <p><strong>💡 꿀팁:</strong> 오도리 공원 블록별로 맥주 브랜드 부스가 나뉩니다. 음주운전은 절대 금물이므로, 이날은 반드시 숙소에 차를 주차한 후 도보나 대중교통으로 방문하세요.<br><br><strong>🚗 주차 맵코드: 9 492 274*52</strong> (오도리 지하 주차장 / 선택사항)</p>
+            <p><strong>📅 축제기간:</strong> 7월 말 스케줄 중 상시 오픈</p>
+            <p><strong>💡 꿀팁:</strong> 투숙하시는 오디시스 삿포로 호텔에서 한 블록 거리라 접근성이 우수합니다. 24, 25일 저녁에는 주차 후 안전하게 마시고, 27일에는 14:00 시내 지점에 차를 아예 반납하고 가므로 음주 걱정 없이 파이널 낮 맥주를 즐길 수 있습니다.</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
@@ -417,9 +398,9 @@
     <div id="modal-tomita" class="modal">
         <div class="modal-header">후라노 팜 도미타</div>
         <div class="modal-body">
-            <p><strong>🕒 영업시간:</strong> 08:30 ~ 17:00 (꽃밭은 자유 관람)</p>
-            <p><strong>📅 휴무일:</strong> 꽃 시즌(5월~10월) 무휴</p>
-            <p><strong>💡 꿀팁:</strong> 7월 주말에는 오전 10시만 되어도 주차장 정체가 극심하므로 9시 30분 이전 선행 방문이 필수입니다. 라벤더 소프트크림과 메론 조각을 꼭 맛보세요. 입장료 및 주차비는 모두 무료입니다.<br><br><strong>🚗 주차 맵코드: 349 276 889*00</strong> (제1주차장 전용)</p>
+            <p><strong>🕒 영업시간:</strong> 08:30 ~ 17:00</p>
+            <p><strong>📅 휴무일:</strong> 꽃 시즌 무휴</p>
+            <p><strong>💡 꿀팁:</strong> 주말인 토요일이므로 10시가 넘으면 주차 줄이 기하급수적으로 증가합니다. 무조건 9시 30분 이전에 전용 제1주차장 안으로 안착하는 것이 가장 결정적인 팁입니다.<br><br><strong>🚗 주차 맵코드: 349 276 889*00</strong> (제1주차장 무료)</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
@@ -429,8 +410,7 @@
         <div class="modal-header">비에이 방목 낙농장 (Biei Farm)</div>
         <div class="modal-body">
             <p><strong>🕒 영업시간:</strong> 10:00 ~ 17:00</p>
-            <p><strong>📅 휴무일:</strong> 성수기(7월) 무휴 운영이 많으나 사전 확인 요망</p>
-            <p><strong>💡 꿀팁:</strong> 완만한 언덕에 방목된 소들을 볼 수 있는 평화로운 목장입니다. 신선한 우유와 콘 소프트크림, 수제 치즈 토스트가 명물입니다. 목장 진입로가 협소하니 운전에 유의하세요.<br><br><strong>🚗 주차 맵코드: 389 011 513*55</strong> (목장 전용 무료주차장)</p>
+            <p><strong>💡 꿀팁:</strong> 드넓은 들판의 방목 소들이 동화 같은 느낌을 줍니다. 수제 치즈 토스트와 진한 신선 목장 우유는 무조건 필수 주문입니다.<br><br><strong>🚗 주차 맵코드: 389 011 513*55</strong> (목장 무료 주차장)</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
@@ -439,9 +419,8 @@
     <div id="modal-shikisai" class="modal">
         <div class="modal-header">사계채의 언덕 (시키사이노오카)</div>
         <div class="modal-body">
-            <p><strong>🕒 영업시간:</strong> 08:40 ~ 17:30 (7월 기준)</p>
-            <p><strong>📅 휴무일:</strong> 연중무휴</p>
-            <p><strong>💡 꿀팁:</strong> 패치워크로드는 나무들을 차창 밖으로 가볍게 스쳐 지나가듯 드라이브하고, 사계채의 언덕 주차장에 주차합니다. 부지가 광대하므로 유료 카트나 트랙터 버스를 타면 체력을 아낄 수 있습니다. (입장료 500엔 / 주차비 500엔)<br><br><strong>🚗 주차 맵코드: 349 032 550*11</strong> (전용 유료주차장)</p>
+            <p><strong>🕒 영업시간:</strong> 08:40 ~ 17:30</p>
+            <p><strong>💡 꿀팁:</strong> 패치워크로드는 켄과 메리의 나무 등 CF 스폿을 차창으로 가볍게 보고, 사계채의 언덕에 유료 주차를 마친 뒤 한여름 꽃밭 융단을 조망합니다. (입장료 및 주차비 각 500엔)<br><br><strong>🚗 주차 맵코드: 349 032 550*11</strong> (유료 주차장)</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
@@ -451,63 +430,67 @@
         <div class="modal-header">비에이 청의 호수 & 흰수염 폭포</div>
         <div class="modal-body">
             <p><strong>🕒 영업시간:</strong> 24시간 개방</p>
-            <p><strong>📅 휴무일:</strong> 연중무휴</p>
-            <p><strong>💡 꿀팁:</strong> 날씨가 맑은 날 알루미늄 성분과 햇빛이 만나 가장 완벽한 에메랄드 블루를 띱니다. 청의 호수 주차 후 도보 5분 거리입니다. 흰수염 폭포는 차로 5분 거리의 온천마을 다리 위에서 무료 조망 가능합니다. (호수 주차비 500엔)<br><br><strong>🚗 주차 맵코드: 349 568 888*00</strong> (청의 호수 주차장)<br><strong>🚗 주차 맵코드: 796 182 604*22</strong> (흰수염폭포 공영주차장 / 선택사항)</p>
-        </div>
-        <button class="modal-close" onclick="closeModal()">닫기</button>
-    </div>
-
-    <!-- 카무이 곶 모달 -->
-    <div id="modal-kamui" class="modal">
-        <div class="modal-header">샤코탄 카무이 곶 (카무이 미사키)</div>
-        <div class="modal-body">
-            <p><strong>🕒 게이트 개방시간:</strong> 08:00 ~ 18:00 (7월 기준)</p>
-            <p><strong>📅 휴무일:</strong> 기상 악화 시(강풍, 폭우) 진입 전면 통제</p>
-            <p><strong>💡 꿀팁:</strong> 바닷바람이 거세므로 편한 운동화 착용이 필수입니다. 주차장에서 능선 끝 등대까지는 왕복 50분 정도 소요됩니다. 7월은 성게알(우니) 제철이므로 근처 식당가에서 우니동을 즐겨보세요.<br><br><strong>🚗 주차 맵코드: 932 581 657*33</strong> (무료 주차장)</p>
+            <p><strong>💡 꿀팁:</strong> 맑은 한여름 오후 날씨에 푸른 알루미늄 성분이 가장 영롱한 블루를 연출합니다. 흰수염 폭포 공영주차장은 온천교 다리 바로 옆에 무료로 세팅되어 있어 잠시 세우기 좋습니다. (호수 주차비 500엔)<br><br><strong>🚗 주차 맵코드: 349 568 888*00</strong> (청의 호수 주차장)<br><strong>🚗 주차 맵코드: 796 182 604*22</strong> (흰수염폭포 주차장 / 선택사항)</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
 
     <!-- 시마누이 해안 모달 -->
     <div id="modal-shimanui" class="modal">
-        <div class="modal-header">시마누이 해안</div>
+        <div class="modal-header">시마누이 해안 전망대</div>
         <div class="modal-body">
             <p><strong>🕒 영업시간:</strong> 24시간 개방</p>
-            <p><strong>📅 휴무일:</strong> 연중무휴</p>
-            <p><strong>💡 꿀팁:</strong> 전용 주차장에 차를 세우고 짧은 보행자 터널을 통과하면 신비로운 절벽 해안 뷰가 펼쳐집니다. 아래 해변으로 내려가는 계단은 다소 가파르므로 위쪽 전망대에서 가볍게 관람하는 것을 권장합니다.<br><br><strong>🚗 주차 맵코드: 932 715 016*00</strong> (무료 주차장)</p>
+            <p><strong>💡 꿀팁:</strong> 터널을 걸어 나가면 조망할 수 있는 천혜의 해안입니다. 샤코탄 블루의 원형을 품고 있으며 샤코탄 곶과 일체형 주차 루트로 기획하기 좋습니다.<br><br><strong>🚗 주차 맵코드: 932 715 016*00</strong> (무료 주차장)</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
 
-    <!-- 오타루 모달 -->
-    <div id="modal-otaru" class="modal">
-        <div class="modal-header">오타루 운하 & 스시 미식</div>
+    <!-- 샤코탄 곶 모달 -->
+    <div id="modal-shakotan-cape" class="modal">
+        <div class="modal-header">샤코탄 곶 전망대</div>
         <div class="modal-body">
-            <p><strong>🕒 영업시간:</strong> 상점가 보통 09:00 ~ 18:00</p>
-            <p><strong>📅 휴무일:</strong> 점포별 상이</p>
-            <p><strong>💡 꿀팁:</strong> 단시간 관람 예정이므로 접근성이 좋은 운하 주변 코인 주차장이나 메인 상점가(사카이마치) 초입 유료 주차장을 활용하는 것이 회차 동선에 유리합니다.<br><br><strong>🚗 주차 맵코드: 493 690 441*66</strong> (오타루 운하 주차장 / 선택사항)<br><strong>🚗 주차 맵코드: 493 660 779*44</strong> (사카이마치 상점가 주차장 / 선택사항)</p>
+            <p><strong>🕒 영업시간:</strong> 주간 관람 적극 권장</p>
+            <p><strong>💡 꿀팁:</strong> 시마누이 해안 전용 주차라인에 그대로 세워두고 연계된 위쪽 능선 산책로를 가볍게 트레킹하며 탁 트인 동해 바다 뷰를 확보하는 것이 베스트 루트입니다.<br><br><strong>🚗 주차 맵코드: 932 715 047*44</strong> (시마무이 공영주차장 공유 / 무료)</p>
+        </div>
+        <button class="modal-close" onclick="closeModal()">닫기</button>
+    </div>
+
+    <!-- 오타루 축제 주차 팁 모달 -->
+    <div id="modal-otaru-festival-park" class="modal">
+        <div class="modal-header">🚗 오타루 시오마츠리 주차 특급 정보</div>
+        <div class="modal-body">
+            <p><strong>⚠️ 주의사항:</strong> 축제 메인 행사장(제3부두)과 운하 중심부는 차량 진입이 아예 통제되거나 극악의 헬게이트가 열립니다.</p>
+            <p><strong>💡 꿀팁 (선택사항 대형 주차장):</strong> 행사장과 도보 12~15분 거리이면서 나중에 삿포로 IC 고속도로 요금소로 빠져나가기 가장 수월한 동선에 위치한 대형 타워/코인 주차장을 이용해 스트레스를 최소화하세요.<br><br><strong>🚗 주차 맵코드: 493 661 821*11</strong> (오타루 역전 대형 코인 주차장 / 선택사항)<br><strong>🚗 주차 맵코드: 493 690 717*00</strong> (오타루항 사카이마치 외곽 공영 / 선택사항)</p>
+        </div>
+        <button class="modal-close" onclick="closeModal()">닫기</button>
+    </div>
+
+    <!-- 오타루 불꽃놀이 축제 모달 -->
+    <div id="modal-otaru-fireworks" class="modal">
+        <div class="modal-header">🎆 오타루 시오마츠리 불꽃놀이 팁</div>
+        <div class="modal-body">
+            <p><strong>🕒 불꽃놀이 시간:</strong> 20:00 ~ 20:40 (축제 마지막 날 피날레)</p>
+            <p><strong>💡 꿀팁:</strong> 바다 위 뗏목에서 쏘아 올리는 불꽃이 오타루항 전체를 물들입니다. 부둣가 한여름 밤바람은 꽤 서늘할 수 있으므로 얇은 긴소매 옷을 꼭 챙기세요. 인파 속 야시장에서 파는 가라아게, 구운 옥수수를 사들고 불꽃 명당 자리를 미리 잡는 재미가 쏠쏠합니다.</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
 
     <!-- 모이와야마 모달 -->
     <div id="modal-moiwa" class="modal">
-        <div class="modal-header">모이와야마 전망대 (로프웨이)</div>
+        <div class="modal-header">모이와야마 전망대 (오전 팁)</div>
         <div class="modal-body">
-            <p><strong>🕒 로프웨이 운영시간:</strong> 10:30 ~ 22:00 (상행 막차 21:30)</p>
-            <p><strong>📅 휴무일:</strong> 기상 악화 및 정기 점검 시 운행 중단</p>
-            <p><strong>💡 꿀팁:</strong> 산록 역(로프웨이 타는 곳) 바로 옆에 무료 전용 주차장이 크게 완비되어 있습니다. 일몰 직전 매직아워 타임에 올라가면 붉은 하늘과 화려한 야경을 동시에 잡을 수 있습니다.<br><br><strong>🚗 주차 맵코드: 9 341 273*66</strong> (모이와야마 로프웨이 산록역 무료주차장)</p>
+            <p><strong>🕒 로프웨이 오전 운영:</strong> 10:30 오픈 (여름 성수기 기준)</p>
+            <p><strong>💡 꿀팁:</strong> 전날 야간 불꽃축제를 늦게 보고 복귀하므로, 4일차 오전에 맑고 산뜻한 시야로 삿포로 시내와 이시카리만을 조망하는 주간 오픈런도 매우 이색적이고 상쾌합니다.<br><br><strong>🚗 주차 맵코드: 9 341 273*66</strong> (로프웨이 산록역 무료주차장)</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
 
     <!-- 삿포로 시내 모달 -->
     <div id="modal-sapporo" class="modal">
-        <div class="modal-header">삿포로 시내 쇼핑 & 스프카레 팁</div>
+        <div class="modal-header">삿포로 시내 쇼핑 & 반납 주의사항</div>
         <div class="modal-body">
-            <p><strong>🕒 영업시간:</strong> 메가돈키호테(24시간) / 스프카레가 보통 11:00 오픈</p>
-            <p><strong>📅 휴무일:</strong> 대부분 무휴</p>
-            <p><strong>💡 꿀팁:</strong> 마지막 날 오전은 타누키코지 아케이드 주변에서 쇼핑을 즐깁니다. 시내 중심가는 주차비가 비싸므로 숙소 체크아웃 전 주차 연장이 불가하다면 주변 공영 주차장이나 돈키호테 제휴 주차장을 이용하세요.<br><br><strong>🚗 주차 맵코드: 9 492 143*30</strong> (타누키코지 근처 공영주차장 / 선택사항)</p>
+            <p><strong>🕒 영업시간:</strong> 돈키호테 타누키코지점 24시간 운영</p>
+            <p><strong>💡 꿀팁:</strong> 시내 지점에 렌터카를 반납하기 직전, 지정된 주유소나 시내 가장 가까운 주유소에서 '기름 가득(만탄)' 주유를 마친 영수증을 반드시 증빙해야 시내 반납 처리가 막힘없이 완료됩니다.<br><br><strong>🚗 주차 맵코드: 9 492 143*30</strong> (타누키코지 공영주차장 / 선택사항)</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
@@ -516,9 +499,8 @@
     <div id="modal-airport" class="modal">
         <div class="modal-header">신치토세 공항 완전히 즐기기</div>
         <div class="modal-body">
-            <p><strong>🕒 영업시간:</strong> 국내선 상점가 보통 08:00 ~ 20:00</p>
-            <p><strong>📅 휴무일:</strong> 연중무휴</p>
-            <p><strong>💡 꿀팁:</strong> 국제선 구역보다 **'국내선 터미널 3층 상점가'**에 로컬 맛집과 디저트 숍이 집결해 있습니다. 렌터카 영업소에 차량을 반납한 후, 셔틀버스를 타고 공항 국내선 청사에서 하차하여 쇼핑을 즐긴 뒤 국제선으로 넘어가 비행기를 탑승하세요.</p>
+            <p><strong>🕒 영업시간:</strong> 국내선 식당가 및 기념품점 대다수 20:00 마감</p>
+            <p><strong>💡 꿀팁:</strong> 17:00에 삿포로에서 출발해 18:00경 공항 국내선 터미널에 내리면 수하물 위탁 전 3층 상점가에서 로이즈 초콜릿 등 과자류 쇼핑과 맛집 탐방을 1시간 동안 콤팩트하게 끝마칠 수 있어 가장 밀도 높은 마무리가 가능합니다.</p>
         </div>
         <button class="modal-close" onclick="closeModal()">닫기</button>
     </div>
